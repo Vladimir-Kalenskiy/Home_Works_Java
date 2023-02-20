@@ -1,0 +1,12 @@
+февр. 14, 2023 11:31:56 PM HW2.Task1 main
+INFO: The cycle is completed.
+февр. 14, 2023 11:31:56 PM HW2.Task1 main
+INFO: The cycle is completed.
+февр. 14, 2023 11:31:56 PM HW2.Task1 main
+INFO: The cycle is completed.
+февр. 14, 2023 11:31:56 PM HW2.Task1 main
+INFO: The cycle is completed.
+февр. 14, 2023 11:31:56 PM HW2.Task1 main
+INFO: The cycle is completed.
+февр. 14, 2023 11:31:56 PM HW2.Task1 main
+INFO: The cycle is completed.
