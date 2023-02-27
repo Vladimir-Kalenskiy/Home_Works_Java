@@ -15,13 +15,15 @@
 package HW2;
 
 import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 
 public class Task2 {
     public static void main(String[] args) {
       
-        File textFile = new File("Task2.1.txt");
+        File textFile = new File("HW/HW2/Task2.1.txt");
         
         String formattedData = getFormattedData(parseFile(textFile));
         System.out.print(formattedData);
@@ -54,8 +56,8 @@ public class Task2 {
         String[][] parsedData = new String[linesCount][3];
 
         try {
-            FileReader fReader = new FileReader(file);
-            BufferedReader bufRead = new BufferedReader(fReader);
+            // FileReader fReader = new FileReader(file);
+            BufferedReader bufRead = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF-8"));
 
             String line = null;
 
